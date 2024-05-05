@@ -1,0 +1,25 @@
+GET http://localhost:3002/ HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3002/ HTTP/1.1
+Content-Type: application/json 
+
+{
+    "todo": "laundry"
+}
+
+###
+
+PUT http://localhost:3002/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "todo": "eat"
+}
+
+###
+
+DELETE http://localhost:3002/3 HTTP/1.1
+Content-Type: application/json
